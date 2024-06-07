@@ -6,10 +6,6 @@ import model.Statut;
 
 public class Main {
   public static void main(String[] args) {
-      Affirmation louEstBeau = new Affirmation("Lou est beau.", Statut.VERITE);
-      Affirmation louEstPauvre = new Affirmation("Lou est pauvre.", Statut.MENSONGE);
-      Affirmation louEstGenereux = new Affirmation("Lou est généreux.", Statut.AFFIRMATION);
-
       Conjonction et = Conjonction.ET;
       Conjonction ou = Conjonction.OU;
       Conjonction donc = Conjonction.DONC;
